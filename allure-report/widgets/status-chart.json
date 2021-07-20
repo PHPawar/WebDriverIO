@@ -1,0 +1,41 @@
+[ {
+  "uid" : "bc1018168e1e813e",
+  "name" : "Api put call",
+  "time" : {
+    "start" : 1622184225780,
+    "stop" : 1622184226492,
+    "duration" : 712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2c97f5caf77c91",
+  "name" : "Test Get call apli",
+  "time" : {
+    "start" : 1622184223367,
+    "stop" : 1622184224200,
+    "duration" : 833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d41873fefdc912b3",
+  "name" : "Api Delete call",
+  "time" : {
+    "start" : 1622184224201,
+    "stop" : 1622184225102,
+    "duration" : 901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b5afd9a08ac8c3a",
+  "name" : "Api Post call",
+  "time" : {
+    "start" : 1622184225102,
+    "stop" : 1622184225780,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

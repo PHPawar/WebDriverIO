@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623826659622' stop='1623826665505'>
+    <name>Api Tests</name>
+    <title>Api Tests</title>
+    <test-cases>
+        <test-case start='1623826659623' status='passed' stop='1623826662858'>
+            <name>Test Get call apli</name>
+            <title>Test Get call apli</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.101'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d7672353-329e-4567-8367-fd2bbf9a02d0-attachment.png' type='image/png' size='3486'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623826662859' status='passed' stop='1623826663650'>
+            <name>Api Delete call</name>
+            <title>Api Delete call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.101'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='72100a77-ca5d-4917-9435-a88254f2020b-attachment.png' type='image/png' size='3486'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623826663650' status='passed' stop='1623826664769'>
+            <name>Api Post call</name>
+            <title>Api Post call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.101'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='daad0e42-f050-492a-967c-485e39b8e427-attachment.png' type='image/png' size='3486'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623826664770' status='passed' stop='1623826665504'>
+            <name>Api put call</name>
+            <title>Api put call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.101'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='41a1820c-a90d-411b-a5cf-5ec8c7dcba38-attachment.png' type='image/png' size='3486'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

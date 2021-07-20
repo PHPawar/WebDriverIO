@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622626204294' stop='1622626286944'>
+    <name>open Link in New tab</name>
+    <title>open Link in New tab</title>
+    <test-cases>
+        <test-case start='1622626204295' status='passed' stop='1622626286943'>
+            <name>open link</name>
+            <title>open link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='73cfe851-c1b5-4d5f-8c8d-fd621afd317d-attachment.png' type='image/png' size='589775'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

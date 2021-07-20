@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622640173386' stop='1622640176901'>
+    <name>Get call</name>
+    <title>Get call</title>
+    <test-cases>
+        <test-case start='1622640173387' status='passed' stop='1622640176900'>
+            <name>Get Call Test</name>
+            <title>Get Call Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3f2a2aec-4b01-471d-956f-291626b4abbe-attachment.png' type='image/png' size='5205'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

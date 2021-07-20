@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622626201311' stop='1622626256849'>
+    <name>Implicit Wait Test</name>
+    <title>Implicit Wait Test</title>
+    <test-cases>
+        <test-case start='1622626201312' status='passed' stop='1622626256847'>
+            <name>ImplicitWait Test</name>
+            <title>ImplicitWait Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='65e79775-b2ee-4e6e-977d-19aea2755968-attachment.png' type='image/png' size='683978'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

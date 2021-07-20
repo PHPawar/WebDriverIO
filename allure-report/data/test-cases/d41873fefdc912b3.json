@@ -1,0 +1,74 @@
+{
+  "uid" : "d41873fefdc912b3",
+  "name" : "Api Delete call",
+  "fullName" : "Api Tests.Api Delete call",
+  "historyId" : "a5fba6b44fd428729fa19f05badd1971",
+  "time" : {
+    "start" : 1622184224201,
+    "stop" : 1622184225102,
+    "duration" : 901
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1a424b73e21f21e",
+      "name" : "Screenshot",
+      "source" : "e1a424b73e21f21e.png",
+      "type" : "image/png",
+      "size" : 5205
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Api Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Api Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Api Delete call"
+  }, {
+    "name" : "package",
+    "value" : "Api Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d41873fefdc912b3.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

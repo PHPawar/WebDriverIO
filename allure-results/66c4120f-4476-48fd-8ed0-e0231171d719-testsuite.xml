@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622626177007' stop='1622626209619'>
+    <name>interaction with web elements</name>
+    <title>interaction with web elements</title>
+    <test-cases>
+        <test-case start='1622626177009' status='broken' stop='1622626209616'>
+            <name>enter a value in the field</name>
+            <title>enter a value in the field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4413ccf0-c222-4250-8b6e-3c5bd3e0ebbe-attachment.png' type='image/png' size='22911'/>
+            </attachments>
+            <failure>
+                <message>Can't call setValue on element with selector ".//input[@id='twotabsearchtextbox']" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector ".//input[@id='twotabsearchtextbox']" because element wasn't found
+                    at Object.implicitWait [as default] (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.runCommandWithHooks (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.setValue (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (H:\webdriverIO\WorkSpace\WebDriver-Mocha\test\/element.js:8:18)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.executeAsync (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

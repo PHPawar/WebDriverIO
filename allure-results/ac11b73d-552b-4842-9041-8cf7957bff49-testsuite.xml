@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622640216052' stop='1622640299193'>
+    <name>open Link in New tab</name>
+    <title>open Link in New tab</title>
+    <test-cases>
+        <test-case start='1622640216053' status='passed' stop='1622640277231'>
+            <name>open link</name>
+            <title>open link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bf509f74-f6a4-477e-a6bd-701c4230c5d0-attachment.png' type='image/png' size='1164182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1622640277232' status='passed' stop='1622640285196'>
+            <name>Explicit Test</name>
+            <title>Explicit Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='64961dbe-d467-488a-90c0-beaa2f42d356-attachment.png' type='image/png' size='508182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1622640285197' status='passed' stop='1622640299191'>
+            <name>Upload Test</name>
+            <title>Upload Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='72c65a48-6081-459d-ab01-000022d5bf1c-attachment.png' type='image/png' size='26813'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

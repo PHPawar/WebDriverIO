@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622626177754' stop='1622626190789'>
+    <name>Api Tests</name>
+    <title>Api Tests</title>
+    <test-cases>
+        <test-case start='1622626177754' status='broken' stop='1622626189926'>
+            <name>Test Get call apli</name>
+            <title>Test Get call apli</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f93edde-c5af-46f0-964d-4a9fd9020271-attachment.png' type='image/png' size='5205'/>
+            </attachments>
+            <failure>
+                <message>getaddrinfo ENOTFOUND reqres.in</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND reqres.in
+                    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622626189928' status='broken' stop='1622626190226'>
+            <name>Api Delete call</name>
+            <title>Api Delete call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='13689794-a03c-4852-b848-d878fc78b3c6-attachment.png' type='image/png' size='5205'/>
+            </attachments>
+            <failure>
+                <message>getaddrinfo ENOTFOUND reqres.in</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND reqres.in
+                    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622626190227' status='broken' stop='1622626190559'>
+            <name>Api Post call</name>
+            <title>Api Post call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9b8208f9-9a64-43e9-abb4-919860a9cacf-attachment.png' type='image/png' size='5205'/>
+            </attachments>
+            <failure>
+                <message>getaddrinfo ENOTFOUND reqres.in</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND reqres.in
+                    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622626190559' status='broken' stop='1622626190788'>
+            <name>Api put call</name>
+            <title>Api put call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a1282905-d32d-4368-8e9b-1abe9861c97b-attachment.png' type='image/png' size='5205'/>
+            </attachments>
+            <failure>
+                <message>getaddrinfo ENOTFOUND reqres.in</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND reqres.in
+                    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

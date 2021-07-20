@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Api Tests",
+    "children" : [ {
+      "name" : "Test Get call apli",
+      "uid" : "c2c97f5caf77c91",
+      "parentUid" : "c13f8cd306e0b4b9256fae89032fdf0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622184223367,
+        "stop" : 1622184224200,
+        "duration" : 833
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Api Delete call",
+      "uid" : "d41873fefdc912b3",
+      "parentUid" : "c13f8cd306e0b4b9256fae89032fdf0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622184224201,
+        "stop" : 1622184225102,
+        "duration" : 901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Api Post call",
+      "uid" : "1b5afd9a08ac8c3a",
+      "parentUid" : "c13f8cd306e0b4b9256fae89032fdf0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622184225102,
+        "stop" : 1622184225780,
+        "duration" : 678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Api put call",
+      "uid" : "bc1018168e1e813e",
+      "parentUid" : "c13f8cd306e0b4b9256fae89032fdf0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622184225780,
+        "stop" : 1622184226492,
+        "duration" : 712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "c13f8cd306e0b4b9256fae89032fdf0d"
+  } ]
+}

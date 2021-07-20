@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622640173354' stop='1622640199548'>
+    <name>interaction with web elements</name>
+    <title>interaction with web elements</title>
+    <test-cases>
+        <test-case start='1622640173355' status='passed' stop='1622640199545'>
+            <name>enter a value in the field</name>
+            <title>enter a value in the field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d8959247-9fa5-47df-bb9c-f74e9766004f-attachment.png' type='image/png' size='402314'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

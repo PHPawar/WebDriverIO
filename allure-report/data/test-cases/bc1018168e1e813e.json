@@ -1,0 +1,74 @@
+{
+  "uid" : "bc1018168e1e813e",
+  "name" : "Api put call",
+  "fullName" : "Api Tests.Api put call",
+  "historyId" : "f2fcdf04c18ff607b7c9beee7cf9ff3c",
+  "time" : {
+    "start" : 1622184225780,
+    "stop" : 1622184226492,
+    "duration" : 712
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba5c44b979cd19b6",
+      "name" : "Screenshot",
+      "source" : "ba5c44b979cd19b6.png",
+      "type" : "image/png",
+      "size" : 5205
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Api Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Api Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Api put call"
+  }, {
+    "name" : "package",
+    "value" : "Api Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc1018168e1e813e.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

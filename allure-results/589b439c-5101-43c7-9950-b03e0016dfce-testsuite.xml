@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622626177742' stop='1622626190403'>
+    <name>Api Tests</name>
+    <title>Api Tests</title>
+    <test-cases>
+        <test-case start='1622626177743' status='broken' stop='1622626190401'>
+            <name>Test Get call apli</name>
+            <title>Test Get call apli</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3dd584d9-8cbd-41cb-95c8-8fc699c2a104-attachment.png' type='image/png' size='5205'/>
+            </attachments>
+            <failure>
+                <message>getaddrinfo ENOTFOUND reqres.in</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND reqres.in
+                    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

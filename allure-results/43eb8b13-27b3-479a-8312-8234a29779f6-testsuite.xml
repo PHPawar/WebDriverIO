@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622640193443' stop='1622640243563'>
+    <name>Implicit Wait Test</name>
+    <title>Implicit Wait Test</title>
+    <test-cases>
+        <test-case start='1622640193444' status='broken' stop='1622640243559'>
+            <name>ImplicitWait Test</name>
+            <title>ImplicitWait Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c729855b-1000-4706-b1a6-a14b0ced78a3-attachment.png' type='image/png' size='920973'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 30000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 30000ms
+                    at H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at Browser.runCommandWithHooks (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.waitUntil (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (H:\webdriverIO\WorkSpace\WebDriver-Mocha\test\/explicitwait.js:8:13)
+                    at Context.executeSync (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\index.js:38:22)
+                    at H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

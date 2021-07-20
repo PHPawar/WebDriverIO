@@ -1,0 +1,74 @@
+{
+  "uid" : "c2c97f5caf77c91",
+  "name" : "Test Get call apli",
+  "fullName" : "Api Tests.Test Get call apli",
+  "historyId" : "ec01cab06252f94a64be7b6d6588d658",
+  "time" : {
+    "start" : 1622184223367,
+    "stop" : 1622184224200,
+    "duration" : 833
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a0685728a6e3dbe",
+      "name" : "Screenshot",
+      "source" : "3a0685728a6e3dbe.png",
+      "type" : "image/png",
+      "size" : 5205
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Api Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Api Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test Get call apli"
+  }, {
+    "name" : "package",
+    "value" : "Api Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2c97f5caf77c91.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

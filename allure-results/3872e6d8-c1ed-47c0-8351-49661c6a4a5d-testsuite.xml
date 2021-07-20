@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622802156026' stop='1622802188691'>
+    <name>Implicit Wait Test</name>
+    <title>Implicit Wait Test</title>
+    <test-cases>
+        <test-case start='1622802156026' status='broken' stop='1622802188691'>
+            <name>ImplicitWait Test</name>
+            <title>ImplicitWait Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='afc4d05e-d9be-4041-9ef6-3884804fa040-attachment.png' type='image/png' size='891452'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 30000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 30000ms
+                    at H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Browser.runCommandWithHooks (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.waitUntil (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (H:\webdriverIO\WorkSpace\WebDriver-Mocha\test\/explicitwait.js:8:13)
+                    at Context.executeSync (H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\index.js:38:22)
+                    at H:\webdriverIO\WorkSpace\WebDriver-Mocha\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

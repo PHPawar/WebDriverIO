@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 28 12:13:45 IST 2021","Fri May 28 12:13:46 IST 2021","712","","Api Tests","","Api Tests","Api put call","Api put call",""
+"passed","Fri May 28 12:13:43 IST 2021","Fri May 28 12:13:44 IST 2021","833","","Api Tests","","Api Tests","Test Get call apli","Test Get call apli",""
+"passed","Fri May 28 12:13:44 IST 2021","Fri May 28 12:13:45 IST 2021","901","","Api Tests","","Api Tests","Api Delete call","Api Delete call",""
+"passed","Fri May 28 12:13:45 IST 2021","Fri May 28 12:13:45 IST 2021","678","","Api Tests","","Api Tests","Api Post call","Api Post call",""
